@@ -1,0 +1,43 @@
+/* Design tokens: colours, radii, shadows. Dark theme overrides the colours only. */
+:root {
+  --font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --bg: #eef3fd;
+  --surface: #ffffff;
+  --surface-soft: #f1f4fb;
+  --text: #141b34;
+  --muted: #6b7592;
+  --line: #e8ecf5;
+
+  --primary: #3b6cf6;
+  --primary-soft: #e6edff;
+  --danger: #ef4444;
+
+  --high-bg: #fde8e8;   --high-fg: #d93a3a;
+  --medium-bg: #fdf0cf; --medium-fg: #b7791f;
+  --low-bg: #dcf5e8;    --low-fg: #1f9d63;
+
+  --radius-lg: 20px;
+  --radius-md: 12px;
+  --shadow: 0 4px 18px rgba(59, 108, 246, 0.08);
+  --shadow-pop: 0 12px 30px rgba(15, 23, 42, 0.18);
+}
+
+[data-theme="dark"] {
+  --bg: #0e1322;
+  --surface: #171d2f;
+  --surface-soft: #1f2639;
+  --text: #e8ecf8;
+  --muted: #8f99b3;
+  --line: #262e45;
+
+  --primary: #5b86ff;
+  --primary-soft: #22305a;
+
+  --high-bg: #4a2327;   --high-fg: #ff8c8c;
+  --medium-bg: #473a1a; --medium-fg: #f3c969;
+  --low-bg: #1b3d31;    --low-fg: #5fd9a1;
+
+  --shadow: none;
+  --shadow-pop: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
